@@ -9,6 +9,8 @@ def detect_underwater_objects(source):
         if not ret:
             break
 
+        
+
 
         frame = cv2.resize(frame, (640, 480))
 
